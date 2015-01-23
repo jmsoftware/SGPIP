@@ -1,0 +1,189 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+a
+{	
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	color: #909090;
+	text-decoration:none; 
+}
+
+ul
+{
+	list-style: none;
+}
+
+/*-------------HEADER-------------*/
+header
+{
+	height: 45px;
+	background-color: #E7E8F0;
+	color: #787878;
+	border-bottom: 1px solid #CBCBD9;
+	overflow: hidden;
+} 
+
+#boton_menu
+{
+	width: 45px;
+	height: 45px;
+	background-color: #3D3C41;
+	float: left;
+}
+
+#boton_menu > span
+{
+	color: #ED5F48;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	padding-top: 9px;
+}
+
+
+#box_user
+{
+	border-collapse: collapse;
+	float: right;
+	height: 45px;
+}
+
+#box_user a
+{
+	vertical-align:middle;
+}
+
+#user_name
+{
+	font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	display: table-cell;
+	height: 45px;
+	padding: 0 15px;
+	color: #737278;
+}
+
+#user_name:hover
+{
+
+}
+
+#user_name>span
+{
+	height: 45px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#portrait
+{
+	height: 35px;
+	width: 35px;
+	overflow: hidden;
+	display: inline-block;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	margin-top: 5px;
+}
+
+#portrait>img
+{
+	height: 35px;
+	width: 35px;
+}
+
+#mensaje_number
+{
+	background-color: #F06048;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	display: inline-block;
+	margin-left: -15px;
+	height: 15px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	padding: 0 4px;
+}
+/*-------------------CENTRO-------------------*/
+#Centro_Box
+{	
+	display: block;
+	background-color: #3D3D3D;
+}
+
+#Contenido_Box
+{
+	background-color: #FFFFFF;
+	overflow: hidden;
+	display: block;
+}
+
+#Contenido
+{
+	background-color: #F9F9FB;
+	display: table;
+	width: 100%;
+}
+
+#contenido_one
+{	
+	display: table-cell;
+}
+
+#end_contenido
+{
+	min-height: calc(100vh - 116px);
+	padding: 20px;
+}
+
+/*-------------USER-------------*/
+
+#user_menu
+{
+	width: 0px;
+	background-color: #F1F1F9;
+	display: table-cell;	
+	border-left: 1px solid #E7E6EB;
+	overflow: hidden;
+	-webkit-transition:300ms linear;
+	-moz-transition:300ms linear;
+	-o-transition:300ms linear;
+	-ms-transition:300ms linear;
+	transition:300ms linear;
+}
+
+/*-------------ASIDE-------------*/
+
+#Aside
+{
+	width: 240px;
+	background-color: #3D3C41;
+	display: block;
+	float: left;
+	overflow: hidden;
+	-webkit-transition:300ms linear;
+	-moz-transition:300ms linear;
+	-o-transition:300ms linear;
+	-ms-transition:300ms linear;
+	transition:300ms linear;
+}
+
+/*-------------------TITULO-------------------*/
+
+
+/*-------------------FOOTER-------------------*/
+footer
+{
+	background-color: #F9F9FB;
+	line-height: 20px;
+	padding: 5px 10px;
+}
+
